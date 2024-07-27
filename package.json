@@ -1,0 +1,26 @@
+{
+  "name": "randomize",
+  "version": "1.0.0",
+  "description": "A JavaScript package to generate random colors and numbers.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalShahid-13/randomize.git"
+  },
+  "keywords": [
+    "random",
+    "colors",
+    "numbers",
+    "npm",
+    "javascript"
+  ],
+  "author": "Bilal Shahid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BilalShahid-13/randomize/issues"
+  },
+  "homepage": "https://github.com/BilalShahid-13/randomize#readme"
+}
