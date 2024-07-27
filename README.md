@@ -16,8 +16,10 @@ Generates a random integer between min (inclusive) and max (inclusive).
 
 Parameters:
 
+   `
     min (number): The minimum value.
     max (number): The maximum value.
+    `
 
 Returns:
 
