@@ -1,5 +1,5 @@
 {
-  "name": "randomize",
+  "name": "randomizer-pro-js",
   "version": "1.0.0",
   "description": "A JavaScript package to generate random colors and numbers.",
   "main": "src/index.js",
@@ -14,8 +14,17 @@
     "random",
     "colors",
     "numbers",
-    "npm",
-    "javascript"
+    "randomize",
+    "js-random",
+    "color-generator",
+    "number-generator",
+    "random-tools",
+    "utility",
+    "javascript-library",
+    "randomizer",
+    "random-utils",
+    "color-palette",
+    "number-magic"
   ],
   "author": "Bilal Shahid",
   "license": "MIT",
