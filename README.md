@@ -15,15 +15,11 @@ npm install randomizer-pro-js
 Generates a random integer between min (inclusive) and max (inclusive).
 
 Parameters:
-
-   `
-    min (number): The minimum value.
-    max (number): The maximum value.
-    `
+* min (number): The minimum value.
+* max (number): The maximum value.
 
 Returns:
-
-    number: A random integer between min and max.
+* number: A random integer between min and max.
 
 ### getRandomFloat(min, max)
 
@@ -31,12 +27,12 @@ Generates a random float between min (inclusive) and max (inclusive)
 
 Parameters:
 
-    min (number): The minimum value.
-    max (number): The maximum value.
+* min (number): The minimum value.
+* max (number): The maximum value.
 
 Returns:
 
-    number: A random float between min and max.
+* number: A random float between min and max.
 
 
 ### getRandomColor()
@@ -45,7 +41,7 @@ Generates a random color in hexadecimal format.
 
 Returns:
 
-    string: A random color in hexadecimal format (e.g: #ff5733).
+* string: A random color in hexadecimal format (e.g: #ff5733).
 
 ### getRandomHSL()
 
@@ -53,7 +49,7 @@ Generates a random color in HSL (Hue, Saturation, Lightness) format.
 
 Returns:
 
-    string: A random color in HSL format (e.g., hsl(120, 100%, 50%)).
+* string: A random color in HSL format (e.g., hsl(120, 100%, 50%)).
 
 
 ## Usage
