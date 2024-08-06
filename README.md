@@ -35,7 +35,7 @@ Returns:
 * number: A random float between min and max.
 
 
-### getRandomColor()
+### getRandomHexaColor()
 
 Generates a random color in hexadecimal format.
 
@@ -52,13 +52,37 @@ Returns:
 * string: A random color in HSL format (e.g., hsl(120, 100%, 50%)).
 
 
+### getRandomRgbColor()
+
+Generates a random color in RGB (Red, Green, Blue) format.
+
+Returns:
+
+* string: A random color in RGB format (e.g., rgb(120, 100, 50)).
+
+
+### getRandomRgbaColor()
+
+Generates a random color in RGB with alpha (Red, Green, Blue) format.
+You can change opacity of your colors.
+
+Returns:
+
+* string: A random color in RGBa format (e.g., rgb(120, 100, 50,1)).
+
 ## Usage
 Importing the Package
 
 First, import the package into your project:
 
 ```
-const { getRandomNumber, getRandomFloat, getRandomColor, getRandomHSL } = require('randomizer-pro-js');
+const { getRandomNumber, getRandomFloat, getRandomRgbaColor, getRandomHSL,getRandomHexaColor , getRandomRgbColor } = require('randomizer-pro-js');
+```
+
+#### OR
+
+```
+import {getRandomNumber, getRandomFloat, getRandomRgbaColor, getRandomHSL,getRandomHexaColor , getRandomRgbColor} from 'randomizer-pro-js'
 ```
 
 
@@ -83,12 +107,12 @@ const randomFloat = getRandomFloat(1, 100);
 console.log(randomFloat); // e.g., 42.567
 ```
 
-#### Generating Random Colors
+#### Generating RGB Colors
 
-To generate random colors, use the `getRandomColor` function. This function returns a random color in hexadecimal format.
+To generate random rgb colors, use the `getRandomRgbColor` function. This function returns a random color in hexadecimal format.
 
 ```
-const color = getRandomColor();
+const color = getRandomRgbColor();
 console.log(color); // e.g., #ff5733
 ```
 
@@ -99,6 +123,15 @@ To generate random HSL colors, use the `getRandomHSL` function. This function re
 ```
 const hslColor = getRandomHSL();
 console.log(hslColor); // e.g., hsl(120, 100%, 50%)
+```
+
+#### Generating RGBa Colors
+
+To generate random rgba colors, use the `getRandomRgbaColor` function. This function returns a random color in hexadecimal format.
+
+```
+const color = getRandomRgbaColor(1);
+console.log(color); // e.g., #ff5733
 ```
 
 

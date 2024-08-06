@@ -32,5 +32,8 @@
     "url": "https://github.com/BilalShahid-13/randomize/issues"
   },
   "homepage": "https://github.com/BilalShahid-13/randomize#readme",
-  "readme": "README.md"
+  "readme": "README.md",
+  "dependencies": {
+    "randomizer-pro-js": "^1.1.0"
+  }
 }
