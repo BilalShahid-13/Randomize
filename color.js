@@ -14,6 +14,13 @@ function getRandomRgbColor() {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
+function getRandomRgbaColor(alpha = 1.0) {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
 function getRandomHslColor() {
   const h = Math.floor(Math.random() * 361);
   const s = Math.floor(Math.random() * 101);
@@ -21,4 +28,9 @@ function getRandomHslColor() {
   return `hsl(${h}, ${s}%, ${l}%)`;
 }
 
-module.exports = { getRandomHexaColor, getRandomRgbColor, getRandomHslColor };
+module.exports = {
+  getRandomHexaColor,
+  getRandomRgbColor,
+  getRandomHslColor,
+  getRandomRgbaColor,
+};
