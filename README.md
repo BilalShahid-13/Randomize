@@ -146,5 +146,5 @@ This project is licensed under the MIT License.
 # Author
 
 Bilal Shahid
-
-
+<!-- ![Image description](https://bilalshahid-13.github.io/Portfolio/DSC_0155%20(1)%20copy.JPG){width=100 height=100} -->
+<img src='https://bilalshahid-13.github.io/Portfolio/DSC_0155%20(1)%20copy.JPG' width=150/>
